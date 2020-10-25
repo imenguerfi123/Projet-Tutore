@@ -1,0 +1,5 @@
+I = imread('images.jpg');
+imhist(I,n)
+imhist(X,map);
+[counts,binLocation]=imhist(I);
+[counts,binLocation]=imhist(gpuarrayI)

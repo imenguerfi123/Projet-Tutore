@@ -1,0 +1,3 @@
+I=imread('images.jpg');
+imshow(I);
+title('Image IRM');
